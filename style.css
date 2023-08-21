@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+}
+
+.main {
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+
+.content {
+  padding-bottom: 50px;
+}
+
+.content h1 {
+  padding-bottom: 40px;
+}
+
+.background {
+  padding-bottom: 40px;
+}
+
+.background-content {
+  display: flex;
+  align-items: center;
+}
+
+.text-content {
+  flex: 0.3;
+  padding: 5px;
+}
+
+.text-content p {
+  padding: 10px;
+}
+
+.image {
+  flex: 1;
+  padding: 20px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.benefits {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  margin-top: 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    padding: 30px;
+  }
+
+  .content {
+    padding: 30px 0;
+  }
+
+  .background-content {
+    flex-direction: column;
+  }
+
+  .text-content p {
+    padding: 5px;
+  }
+
+  .image {
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .main {
+    padding: 40px;
+  }
+
+  .content {
+    padding: 40px 0;
+  }
+
+  .background-content {
+    flex-direction: row;
+  }
+
+  .text-content {
+    flex: 0.5;
+  }
+
+  .image {
+    flex: 0.5;
+  }
+}
